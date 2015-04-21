@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="cordovaandroid.widget.pdfviewer" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+  <name>PDFViewer</name>
+  <description>View PDFs from within Cordova on Android</description>
+
+  <icon></icon>
+
+  <properties>
+        <property key="caption" type="string" required="true" defaultValue="">
+            <caption>Caption</caption>
+            <category>Button</category>
+            <description>The button caption.</description>
+        </property>
+	</properties>
+</widget>
+
