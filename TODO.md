@@ -1,0 +1,2 @@
+ - conditional visibility for ios: show the native file widget instead
+ - progress indication
