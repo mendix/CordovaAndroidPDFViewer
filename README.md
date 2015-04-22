@@ -8,6 +8,14 @@ This widget requires the following cordova plugins to be installed:
  - org.apache.cordova.filetransfer
  - de.sitewaerts.cordova.documentviewer
 
+## Using
+You currently can't use this widget out of the box in the Mendix Cloud or Developer app, due to the cordova plugin that is required. If you want to use this widget anyway you will have to build your own cordova package and deploy that. Simply follow the steps in the cloud portal and download the sources afterwards. You should be able to find a config.xml inside the archive. 
+
+In the plugins secion (a list of gap:plugin xml tags) you'll have to add the following:
+<gap:plugin name="de.sitewaerts.cordova.documentviewer" />
+
+Afterwards you'll be able to either build your APK/IPA locally or via adobe.
+
 ## Contributing
 
 For more information on contributing to this repository visit [Contributing to a GitHub repository](https://world.mendix.com/display/howto50/Contributing+to+a+GitHub+repository)!
